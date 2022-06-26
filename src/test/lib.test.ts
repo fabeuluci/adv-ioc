@@ -1,6 +1,7 @@
 import * as assert from "assert";
 import { Inject, Injectable, InjectNamed, IOC } from "../index";
 import { Scanner } from "../Scanner";
+import "q2-test";
 
 it("Register lazy created singleton", () => {
     
